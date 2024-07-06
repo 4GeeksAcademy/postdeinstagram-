@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    width: 350px;
+    overflow: hidden;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-header img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.card-header .username {
+    font-weight: bold;
+}
+
+.card-header .platform {
+    color: gray;
+    font-size: 14px;
+}
+
+.card-header .menu {
+    margin-left: auto;
+}
+
+.card-header .menu::before {
+    content: '⋮';
+    font-size: 20px;
+    color: black;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content .acciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-content .acciones .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.card-content .acciones .icons i {
+    font-size: 20px;
+}
+
+.card-content .likes {
+    font-size: 14px;
+    
+}
+
+.card-content .description {
+    font-size: 14px;
+    color: black;
+    margin-top: 5px;
+}
